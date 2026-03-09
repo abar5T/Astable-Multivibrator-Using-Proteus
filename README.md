@@ -11,6 +11,8 @@ To design and simulate an Astable Multivibrator using NE555 in Proteus Design Su
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
+<img width="692" height="421" alt="image" src="https://github.com/user-attachments/assets/048a6761-42e0-4c45-aebb-826877473e8a" />
+
 Pin Configuration of 555 Timer:
 •	Pin 1 → Ground
 •	Pin 2 → Trigger
@@ -37,8 +39,12 @@ Pin Configuration of 555 Timer:
 6.	Observe square wave output at Pin 3.
 7.	Measure time period and frequency.
 ## Tabulation
-S.No	        R1 (kΩ)	      R2 (kΩ)	       C (µF)	        Theoretical Frequency	          Practical Frequency
+
+<img width="595" height="226" alt="image" src="https://github.com/user-attachments/assets/31c635a6-1846-4a3c-8b10-916d223507d1" />
+
 ## Waveforms
+<img width="691" height="439" alt="image" src="https://github.com/user-attachments/assets/e13063c6-4c37-4054-8116-568a7b620896" />
+
 •	Output (Pin 3) → Square wave
 •	Capacitor voltage → Exponential charging & discharging waveform
 ## Result
@@ -51,8 +57,8 @@ The practical frequency closely matches the theoretical frequency.
 •	Increasing R or C decreases frequency.
 •	Used in clock generation, LED flashing, and tone generation.
 ## Viva Questions
-1.	What are the operating modes of 555 timer?
-2.	What are the threshold levels in astable mode?
-3.	Write the frequency formula.
-4.	What is duty cycle?
-5.	What happens if R2 increases?
+1.	What are the operating modes of 555 timer? Operating Modes: Monostable, Astable, and Bistable modes.
+2.	What are the threshold levels in astable mode? Threshold Levels in Astable Mode: The capacitor charges and discharges
+3.	Write the frequency formula. f=(R1​+2R2​)C1.44​
+4.	What is duty cycle? Duty Cycle: The percentage of time the output remains HIGH in one complete cycle.
+5.	What happens if R2 increases? If R2 Increases: The time period and duty cycle increase while frequency decreases.
